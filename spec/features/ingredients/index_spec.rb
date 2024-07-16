@@ -14,17 +14,7 @@ RSpec.describe 'ingredients index', type: :feature do
 
     expect(current_path).to eq('/ingredients')
   end
-  
-  # @recipe1 = Recipe.create(name: "Omlette", complexity: 2, genre: "Breakfast")
-    # @recipe2 = Recipe.create(name: "MacnCheese", complexity: 3, genre: "Lunch")
-    # @recipe3 = Recipe.create(name: "Pasta", complexity: 1, genre: "Dinner")
 
-    # RecipeIngredient.create(recipe: @recipe1, ingredient: @ingredient1)
-    # RecipeIngredient.create(recipe: @recipe1, ingredient: @ingredient3)
-    # RecipeIngredient.create(recipe: @recipe2, ingredient: @ingredient1)
-    # RecipeIngredient.create(recipe: @recipe2, ingredient: @ingredient2)
-    # RecipeIngredient.create(recipe: @recipe2, ingredient: @ingredient4)
-    # RecipeIngredient.create(recipe: @recipe3, ingredient: @ingredient3)
 
   it "should list the name and cost of the ingredients" do
     visit "/ingredients"
